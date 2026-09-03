@@ -1,0 +1,61 @@
+{"timestamp":"2026-09-03T06:39:19.828Z","event":"LOGIN_ERROR","payload":{"email":"lordmiggos4@gmail.com","ipAddress":"::1","error":"Operation `staffs.findOne()` buffering timed out after 10000ms"}}
+{"timestamp":"2026-09-03T07:06:35.139Z","event":"LOGIN_ERROR","payload":{"email":"admin@hms.local","ipAddress":"::1","error":"Operation `staffs.findOne()` buffering timed out after 10000ms"}}
+{"timestamp":"2026-09-03T07:08:49.952Z","event":"LOGIN_FAILED","payload":{"email":"admin@hms.local","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T07:21:18.956Z","event":"LOGIN_FAILED","payload":{"email":"lordmiggos4@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:09:04.618Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul06@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:10:28.614Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul06@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:25:11.608Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul06@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:25:26.565Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:25:31.720Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:25:41.471Z","event":"LOGIN_FAILED","payload":{"email":"nyalitluethyai@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:25:49.008Z","event":"LOGIN_FAILED","payload":{"email":"nyalitluethyai@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:26:08.256Z","event":"LOGIN_FAILED","payload":{"email":"nyalitluethyai@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T08:26:13.579Z","event":"LOGIN_FAILED","payload":{"email":"nyalitluethyai@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:01:26.390Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99375e9cc97316231d0c68","role":"NURSE","email":"nyalitluethyai@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:04:42.263Z","event":"LOGIN_FAILED","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:04:49.255Z","event":"LOGIN_FAILED","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:04:50.711Z","event":"LOGIN_FAILED","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:04:53.110Z","event":"LOGIN_FAILED","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:05:14.527Z","event":"LOGIN_FAILED","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:06:33.960Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:06:35.572Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:06:36.955Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:13:31.878Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99375e9cc97316231d0c68","role":"NURSE","email":"nyalitluethyai@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:15:06.330Z","event":"LOGOUT","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:17:00.234Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul06@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:18:18.209Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"NURSE","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:19:58.760Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"NURSE","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:20:06.177Z","event":"LOGOUT","payload":{"userId":"6a993b51df6afa8b0380d985","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:20:57.454Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"NURSE","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:21:15.587Z","event":"LOGOUT","payload":{"userId":"6a993b51df6afa8b0380d985","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:21:58.412Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"NURSE","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:25:09.691Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"DOCTOR","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:27:47.322Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"DOCTOR","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:29:21.367Z","event":"LOGOUT","payload":{"userId":"6a993b51df6afa8b0380d985","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:35:14.538Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"DOCTOR","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:36:16.405Z","event":"LOGOUT","payload":{"userId":"6a993b51df6afa8b0380d985","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:36:18.494Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a993b51df6afa8b0380d985","role":"DOCTOR","email":"makethpoul06@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:36:53.513Z","event":"LOGOUT","payload":{"userId":"6a993b51df6afa8b0380d985","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:37:39.254Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99375e9cc97316231d0c68","role":"NURSE","email":"nyalitluethyai@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:37:50.589Z","event":"LOGOUT","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:38:13.565Z","event":"LOGIN_FAILED","payload":{"email":"makethpoul@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:40:14.038Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a994076931c7a5b4effad49","role":"DOCTOR","email":"makethpoul@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:42:20.332Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a994076931c7a5b4effad49","role":"ADMIN","email":"makethpoul@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:43:06.366Z","event":"LOGIN_FAILED","payload":{"userId":"6a994076931c7a5b4effad49","ipAddress":"::1","reason":"Incorrect password"}}
+{"timestamp":"2026-09-03T09:43:22.930Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a994076931c7a5b4effad49","role":"ADMIN","email":"makethpoul@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:45:51.577Z","event":"LOGOUT","payload":{"userId":"6a994076931c7a5b4effad49","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:46:08.890Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99375e9cc97316231d0c68","role":"NURSE","email":"nyalitluethyai@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:46:19.372Z","event":"LOGOUT","payload":{"userId":"6a99375e9cc97316231d0c68","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:48:04.864Z","event":"LOGIN_FAILED","payload":{"email":"lordmiggos4@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T09:49:16.504Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99429354e48002f775b08f","role":"ADMIN","email":"lordmiggos4@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:53:52.970Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99429354e48002f775b08f","role":"BILLING","email":"lordmiggos4@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:58:31.911Z","event":"LOGOUT","payload":{"userId":"6a99429354e48002f775b08f","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T09:59:08.806Z","event":"LOGIN_FAILED","payload":{"email":"ramsey@gmail.com","ipAddress":"::1","reason":"Invalid credentials or inactive user"}}
+{"timestamp":"2026-09-03T10:02:07.902Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a9945995cf858c45ca6d694","role":"RECEPTIONIST","email":"ramsey@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:02:28.454Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a9945995cf858c45ca6d694","role":"RECEPTIONIST","email":"ramsey@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:02:46.433Z","event":"LOGOUT","payload":{"userId":"6a9945995cf858c45ca6d694","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:02:52.486Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a9945995cf858c45ca6d694","role":"RECEPTIONIST","email":"ramsey@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:03:01.824Z","event":"LOGOUT","payload":{"userId":"6a9945995cf858c45ca6d694","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:03:09.317Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a99429354e48002f775b08f","role":"BILLING","email":"lordmiggos4@gmail.com","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:03:14.403Z","event":"LOGOUT","payload":{"userId":"6a99429354e48002f775b08f","ipAddress":"::1"}}
+{"timestamp":"2026-09-03T10:03:34.031Z","event":"LOGIN_SUCCESS","payload":{"userId":"6a994076931c7a5b4effad49","role":"ADMIN","email":"makethpoul@gmail.com","ipAddress":"::1"}}

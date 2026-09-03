@@ -1,0 +1,156 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 85% 0%, rgba(37, 99, 235, 0.1), transparent 28rem),
+    #f5f8fc;
+}
+
+.admin-sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.admin-content {
+  min-width: 0;
+}
+
+.admin-dashboard button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.admin-dashboard button:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.3);
+  outline-offset: 2px;
+}
+
+.admin-dashboard .navButton:hover,
+.admin-dashboard .navButton:focus-visible {
+  background-color: #f1f5f9 !important;
+  color: #2563eb !important;
+}
+
+.admin-dashboard .controlBtn {
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+.admin-dashboard .controlBtn:hover,
+.admin-dashboard .controlBtn:focus-visible {
+  border-color: #93c5fd !important;
+  background-color: #eff6ff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.1);
+}
+
+.admin-dashboard .statCard,
+.admin-dashboard .mainPanel,
+.admin-dashboard .sidePanel {
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.045) !important;
+}
+
+@media (max-width: 1050px) {
+  .admin-sidebar {
+    width: 230px !important;
+  }
+
+  .admin-content {
+    padding: 28px 24px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .admin-dashboard {
+    display: block !important;
+  }
+
+  .admin-sidebar {
+    position: static;
+    width: 100% !important;
+    height: auto;
+    padding: 18px 16px !important;
+    border-right: none !important;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .admin-sidebar > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    overflow-x: auto;
+  }
+
+  .admin-sidebar .brandHeader {
+    flex-shrink: 0;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+  }
+
+  .admin-sidebar .navGroup {
+    flex-direction: row !important;
+    align-items: center;
+    margin-top: 0 !important;
+    gap: 4px !important;
+  }
+
+  .admin-sidebar .navSectionLabel,
+  .admin-sidebar .supportCard {
+    display: none;
+  }
+
+  .admin-sidebar .navButton {
+    white-space: nowrap;
+    padding: 10px 12px !important;
+  }
+
+  .admin-sidebar .navIcon {
+    font-size: 16px !important;
+  }
+
+  .admin-topbar {
+    align-items: flex-start !important;
+  }
+
+  .admin-dashboard-split {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .admin-content {
+    padding: 22px 16px !important;
+  }
+
+  .admin-topbar,
+  .topRightActions {
+    width: 100%;
+  }
+
+  .admin-topbar .topRightActions {
+    justify-content: space-between;
+    gap: 8px !important;
+  }
+
+  .admin-topbar .userBadge {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .admin-topbar .logoutBtn {
+    padding: 10px 12px !important;
+  }
+
+  .admin-dashboard .greetingTitle {
+    font-size: 22px !important;
+  }
+
+  .admin-dashboard .mainPanel,
+  .admin-dashboard .sidePanel {
+    padding: 18px !important;
+  }
+
+  .admin-dashboard .taskCard {
+    align-items: flex-start !important;
+    flex-direction: column;
+  }
+}
